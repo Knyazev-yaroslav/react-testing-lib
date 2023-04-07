@@ -11,7 +11,7 @@ const Navbar = () => {
         about
       </Link>{" "}
       <Link to="/users" data-testid="users-link">
-        about
+        users
       </Link>
     </div>
   );

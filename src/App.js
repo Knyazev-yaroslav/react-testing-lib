@@ -35,7 +35,6 @@ const App = () => {
   return (
     <div>
       <Navbar />
-
       <AppRouter />
     </div>
   );

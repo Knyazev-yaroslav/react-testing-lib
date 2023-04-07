@@ -6,7 +6,7 @@ import { renderTestApp } from "../../tests/helpers/renderTestApp";
 describe("Counter test", () => {
   test("Router test", async () => {
     renderTestApp(null, {
-      route: "/",
+      route: "/users",
       initialState: { counter: { value: 10 } },
     });
     const incrementBtn = screen.getByTestId("increment-btn");

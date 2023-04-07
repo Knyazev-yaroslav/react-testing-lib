@@ -5,7 +5,7 @@ import { decrement, increment } from "../../store/reducers/counterReducer";
 
 const Counter = () => {
   const dispatch = useDispatch();
-  const value = useSelector(getCounterValue());
+  const value = useSelector(getCounterValue);
 
   const onIncrement = () => {
     dispatch(increment());
